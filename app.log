@@ -1,0 +1,81 @@
+2020-09-09 00:14:43.782  WARN 8764 --- [http-nio-6161-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2020-09-09 00:15:27.840  INFO 8764 --- [RMI TCP Connection(218)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-09 00:15:28.040  INFO 8764 --- [RMI TCP Connection(218)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 00:15:28.045  INFO 8764 --- [RMI TCP Connection(218)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-09 00:15:28.048  INFO 8764 --- [RMI TCP Connection(218)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-09 00:15:28.076  INFO 8764 --- [RMI TCP Connection(218)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-09 00:15:32.978  INFO 5420 --- [main] com.quiz.services.QuizApplication        : Starting QuizApplication on Babu with PID 5420 (C:\Users\Gaju\Desktop\quiz-app\bin\main started by Gaju in C:\Users\Gaju\Desktop\quiz-app)
+2020-09-09 00:15:32.983  INFO 5420 --- [main] com.quiz.services.QuizApplication        : No active profile set, falling back to default profiles: default
+2020-09-09 00:15:33.037  WARN 5420 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-09 00:15:34.807  INFO 5420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-09 00:15:34.909  INFO 5420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 1 JPA repository interfaces.
+2020-09-09 00:15:35.703  INFO 5420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6161 (http)
+2020-09-09 00:15:35.720  INFO 5420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-09 00:15:35.723  INFO 5420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-09 00:15:36.058  INFO 5420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-09 00:15:36.059  INFO 5420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2993 ms
+2020-09-09 00:15:36.541  INFO 5420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 00:15:36.608  INFO 5420 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-09 00:15:36.691  WARN 5420 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-09 00:15:36.700  INFO 5420 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-09 00:15:37.100  INFO 5420 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-09 00:15:37.292  INFO 5420 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-09 00:15:37.296  WARN 5420 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-09-09 00:15:37.664  INFO 5420 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-09 00:15:37.818  INFO 5420 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-09 00:15:38.170  INFO 5420 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b877a54, org.springframework.security.web.context.SecurityContextPersistenceFilter@14c99bf6, org.springframework.security.web.header.HeaderWriterFilter@3ebc955b, org.springframework.security.web.authentication.logout.LogoutFilter@4052b19f, com.quiz.services.filters.JwtRequestFilter@7343922c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38883a31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19ae2ee5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@268c030f, org.springframework.security.web.session.SessionManagementFilter@7e3236d, org.springframework.security.web.access.ExceptionTranslationFilter@1f15e689, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f8a02cf]
+2020-09-09 00:15:38.219  INFO 5420 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-09 00:15:38.242  INFO 5420 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-09-09 00:15:39.411  INFO 5420 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-09 00:15:39.428  INFO 5420 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 00:15:39.658  INFO 5420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6161 (http) with context path ''
+2020-09-09 00:15:39.660  INFO 5420 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-09-09 00:15:39.681  INFO 5420 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-09-09 00:15:39.724  INFO 5420 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-09-09 00:15:39.960  INFO 5420 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-09 00:15:40.689  INFO 5420 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-09 00:15:40.710  INFO 5420 --- [main] com.quiz.services.QuizApplication        : Started QuizApplication in 8.434 seconds (JVM running for 9.711)
+2020-09-09 00:16:55.242  INFO 5420 --- [http-nio-6161-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-09 00:16:55.245  INFO 5420 --- [http-nio-6161-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-09 00:16:55.268  INFO 5420 --- [http-nio-6161-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2020-09-09 00:17:13.054  WARN 5420 --- [http-nio-6161-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{id}7"]
+2020-09-09 00:26:50.175  WARN 5420 --- [http-nio-6161-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{id}7"]
+2020-09-09 00:32:26.938  INFO 5420 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-09 00:32:27.098  INFO 5420 --- [RMI TCP Connection(23)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 00:32:27.104  INFO 5420 --- [RMI TCP Connection(23)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-09 00:32:27.107  INFO 5420 --- [RMI TCP Connection(23)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-09 00:32:27.119  INFO 5420 --- [RMI TCP Connection(23)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-09-09 00:32:32.240  INFO 10184 --- [main] com.quiz.services.QuizApplication        : Starting QuizApplication on Babu with PID 10184 (C:\Users\Gaju\Desktop\quiz-app\bin\main started by Gaju in C:\Users\Gaju\Desktop\quiz-app)
+2020-09-09 00:32:32.245  INFO 10184 --- [main] com.quiz.services.QuizApplication        : No active profile set, falling back to default profiles: default
+2020-09-09 00:32:32.341  WARN 10184 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-09 00:32:35.532  INFO 10184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-09 00:32:35.798  INFO 10184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 232ms. Found 1 JPA repository interfaces.
+2020-09-09 00:32:36.864  INFO 10184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6161 (http)
+2020-09-09 00:32:36.877  INFO 10184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-09 00:32:36.880  INFO 10184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-09 00:32:37.045  INFO 10184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-09 00:32:37.045  INFO 10184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4685 ms
+2020-09-09 00:32:37.523  INFO 10184 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-09 00:32:37.577  INFO 10184 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-09 00:32:37.623  WARN 10184 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-09 00:32:37.659  INFO 10184 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-09 00:32:38.065  INFO 10184 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-09 00:32:38.245  INFO 10184 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-09 00:32:38.251  WARN 10184 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-09-09 00:32:38.679  INFO 10184 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-09 00:32:38.849  INFO 10184 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-09 00:32:39.106  INFO 10184 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-09 00:32:39.129  INFO 10184 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-09-09 00:32:39.286  INFO 10184 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18709cb2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5efe47fd, org.springframework.security.web.header.HeaderWriterFilter@2db15f70, org.springframework.security.web.authentication.logout.LogoutFilter@6221b13b, com.quiz.services.filters.JwtRequestFilter@4bd5849e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e3236d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@445bce9a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a90e2c1, org.springframework.security.web.session.SessionManagementFilter@66d25ba9, org.springframework.security.web.access.ExceptionTranslationFilter@57fdb8a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@790d8fdd]
+2020-09-09 00:32:41.733  INFO 10184 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-09 00:32:41.786  INFO 10184 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-09 00:32:42.468  INFO 10184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6161 (http) with context path ''
+2020-09-09 00:32:42.475  INFO 10184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-09-09 00:32:42.546  INFO 10184 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-09-09 00:32:42.682  INFO 10184 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-09-09 00:32:42.983  INFO 10184 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-09 00:32:43.743  INFO 10184 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-09 00:32:43.771  INFO 10184 --- [main] com.quiz.services.QuizApplication        : Started QuizApplication in 12.308 seconds (JVM running for 13.551)
+2020-09-09 00:38:59.656  INFO 10184 --- [http-nio-6161-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-09 00:38:59.661  INFO 10184 --- [http-nio-6161-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-09 00:38:59.678  INFO 10184 --- [http-nio-6161-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms

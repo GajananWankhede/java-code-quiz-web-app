@@ -1,0 +1,26 @@
+logging:
+    file:
+        name: app.log
+    level:
+        root: info
+server:
+    port: 6161
+spring:
+    application:
+        name: quiz-services
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        password: Gajanan@123
+        url: jdbc:mysql://localhost:3306/quizschema
+        username: root
+    jpa:
+        generate-ddl: true
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL55Dialect
+        show-sql: true
+        
+    security:
+        user:
+            name: root
+            password: Aai@2070   
